@@ -6,7 +6,7 @@ worker () {
 	   i=0;
 	      while [ $i -lt $2 ]; do
 			         ((i=i+1));
-					        sleep 1;
+					        sleep 3;
 							   done
 							      echo "[$@] completed";
 							  }
