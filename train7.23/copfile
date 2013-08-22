@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+use Getopt::Long;
+
+# copyfile inputfile output --bs 100k [-m 1|2, --mode 1|2 ]  -v
+
+#  1> flag  -f --flag
+#  2> value -k val --kay
+#  3> inputfile ou
+
+my $bs;   # string
+my $m;    # 1 | 2
+my $v;    # true | false
+
+my $rtn = GetOptions(
+    "bs=s"     => \$bs, 
+    "mode|m=s" => \$m, 
+    "v"        => \$v,
+    "f"        => \$f,
+);
+
+warn "rtn => $rtn";
+warn "bs => $bs";
+warn "m  => $m";
+warn "v  => $v";
+warn "input|output: @ARGV";
+
+

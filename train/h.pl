@@ -13,6 +13,7 @@ my @fruit_color = (
                );
 
 my @keys = keys %fruit_color;
+warn "@keys";
 
 warn "-------------\n";
 
