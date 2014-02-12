@@ -5,7 +5,9 @@
 worker () {
 	   i=0;
 	      while [ $i -lt $2 ]; do
+	             echo "[$@] start";
 			         ((i=i+1));
+			         echo "[$@] sleep";
 					        sleep 3;
 							   done
 							      echo "[$@] completed";

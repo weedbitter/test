@@ -1,0 +1,71 @@
+[Fri Aug 23 15:05:56 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:06:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:06:02 2013] [debug] GET "/gny.html".
+[Fri Aug 23 15:06:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 23 15:06:02 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 23 15:06:02 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:06:02 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:06:02 2013] [debug] 404 Not Found (0.029527s, 33.867/s).
+[Fri Aug 23 15:06:35 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:06:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:11:41 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:11:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:12:54 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:18:54 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:19:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:19:01 2013] [debug] GET "/abc".
+[Fri Aug 23 15:19:01 2013] [debug] Template "abc.html.ep" not found.
+[Fri Aug 23 15:19:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 23 15:19:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 23 15:19:01 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:19:01 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:19:01 2013] [debug] 404 Not Found (0.033807s, 29.580/s).
+[Fri Aug 23 15:22:27 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:22:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:22:38 2013] [debug] GET "/abc".
+[Fri Aug 23 15:22:38 2013] [error] Can't call method "can" on unblessed reference at /usr/local/share/perl/5.14.2/Mojolicious/Routes.pm line 154.
+
+[Fri Aug 23 15:22:38 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 23 15:22:38 2013] [debug] Template "exception.html.ep" not found.
+[Fri Aug 23 15:22:38 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:22:38 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:22:38 2013] [debug] 500 Internal Server Error (0.043430s, 23.026/s).
+[Fri Aug 23 15:25:18 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:25:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:25:22 2013] [debug] GET "/abc".
+[Fri Aug 23 15:25:22 2013] [error] Can't locate object method "pacakge" via package "Demo::Abc" at /home/ngy/workspace/demo/script/../lib/Demo/Abc.pm line 1.
+Compilation failed in require at (eval 240) line 1.
+
+[Fri Aug 23 15:25:22 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 23 15:25:22 2013] [debug] Template "exception.html.ep" not found.
+[Fri Aug 23 15:25:22 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:25:22 2013] [debug] Rendering inline template.
+[Fri Aug 23 15:25:22 2013] [debug] 500 Internal Server Error (0.040639s, 24.607/s).
+[Fri Aug 23 15:26:08 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:26:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:26:14 2013] [debug] GET "/abc".
+[Fri Aug 23 15:26:14 2013] [debug] Routing to controller "Demo::Abc" and action "index".
+[Fri Aug 23 15:26:14 2013] [debug] 302 Found (0.002122s, 471.254/s).
+[Fri Aug 23 15:26:20 2013] [debug] GET "/".
+[Fri Aug 23 15:26:20 2013] [debug] Routing to controller "Demo::Example" and action "welcome".
+[Fri Aug 23 15:26:20 2013] [debug] Rendering template "example/welcome.html.ep".
+[Fri Aug 23 15:26:20 2013] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 23 15:26:20 2013] [debug] 200 OK (0.010729s, 93.205/s).
+[Fri Aug 23 15:26:27 2013] [debug] GET "/abc".
+[Fri Aug 23 15:26:27 2013] [debug] Routing to controller "Demo::Abc" and action "index".
+[Fri Aug 23 15:26:27 2013] [debug] 302 Found (0.001020s, 980.392/s).
+[Fri Aug 23 15:26:40 2013] [debug] GET "/abc".
+[Fri Aug 23 15:26:40 2013] [debug] Routing to controller "Demo::Abc" and action "index".
+[Fri Aug 23 15:26:40 2013] [debug] 302 Found (0.000909s, 1100.110/s).
+[Fri Aug 23 15:26:52 2013] [debug] GET "/abc".
+[Fri Aug 23 15:26:52 2013] [debug] Routing to controller "Demo::Abc" and action "index".
+[Fri Aug 23 15:26:52 2013] [debug] 302 Found (0.000955s, 1047.120/s).
+[Fri Aug 23 15:29:49 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:29:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:29:55 2013] [debug] GET "/abc".
+[Fri Aug 23 15:29:55 2013] [debug] Routing to controller "Demo::Abc" and action "index".
+[Fri Aug 23 15:29:55 2013] [debug] 302 Found (0.002216s, 451.264/s).
+[Fri Aug 23 15:33:17 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:33:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 23 15:34:17 2013] [info] Listening at "http://*:3000".
+[Fri Aug 23 15:34:24 2013] [debug] Your secret passphrase needs to be changed!!!

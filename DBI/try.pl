@@ -2,7 +2,7 @@
 use DBI;
 use Data::Dump;
 
-my $dsn = "dbi:DB2:zdb";
+my $dsn = "dbi:DB2:zdb_dev";
 my $user = "db2inst";
 my $pass = "db2inst";
 

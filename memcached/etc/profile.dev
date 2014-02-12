@@ -1,0 +1,20 @@
+export MEM_HOME=$HOME/workspace/test/memcached
+export PATH=$MEM_HOME/bin:$MEM_HOME/lib:$PATH
+
+alias cdlb='cd $MEM_HOME/lib';
+alias cdb='cd $MEM_HOME/bin';
+alias cdc='cd $MEM_HOME/conf';
+alias cde='cd $MEM_HOME/etc';
+alias cdl='cd $MEM_HOME/log';
+alias cdh='cd $MEM_HOME';
+
+export DB_NAME=zdb_dev
+export DB_USER=db2inst
+export DB_PASS=db2inst
+export DB_SCHEMA=db2inst
+
+export MEM_IP=localhost
+export MEM_PORT=11212
+export MEM_SERVER=$MEM_IP:$MEM_PORT
+
+alias dbc='db2 connect to $DB_NAME user $DB_USER using $DB_PASS'
